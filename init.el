@@ -5,3 +5,6 @@
 
 ;; enabling unread tweets inside the emacs mod
 (twittering-enable-unread-status-notifier)
+
+;; display remaining api calls
+(setq twittering-display-remaining t)
