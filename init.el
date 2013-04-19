@@ -8,3 +8,6 @@
 
 ;; display remaining api calls
 (setq twittering-display-remaining t)
+
+;; inherit hashtag in a RT
+(setq twittering-edit-skeleton 'inherit-any)
