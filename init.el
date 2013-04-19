@@ -1,5 +1,7 @@
 (install-packs '(twittering-mode))
 
+(require 'twittering-mode)
+
 ;; setting master password to store the password
 (setq twittering-use-master-password t)
 
