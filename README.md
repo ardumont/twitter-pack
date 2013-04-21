@@ -1,6 +1,7 @@
-# Twitter pack
+twitter-pack
+============
 
-Just a simple twitter pack wrapping http://www.emacswiki.org/emacs/TwitteringMode
+Just a simple twitter pack wrapping [twittering-mode](http://www.emacswiki.org/emacs/TwitteringMode).
 
 # Install
 
