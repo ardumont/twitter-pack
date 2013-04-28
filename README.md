@@ -7,5 +7,5 @@ Just a simple twitter pack wrapping [twittering-mode](http://www.emacswiki.org/e
 
 In your `.emacs-live.el` add this snippet:
 ```elisp
-(live-add-packs '(twitter-pack))
+(live-add-packs '("/path/to/twitter-pack"))
 ```
