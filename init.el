@@ -1,3 +1,9 @@
+;;; twitter-pack.el --- Twitter setup
+
+;;; Commentary:
+
+;;; Code:
+
 (install-packs '(twittering-mode))
 
 (require 'twittering-mode)
@@ -13,3 +19,5 @@
 
 ;; inherit hashtag in a RT
 (setq twittering-edit-skeleton 'inherit-any)
+
+;;; twitter-pack ends here
