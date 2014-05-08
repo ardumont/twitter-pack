@@ -4,6 +4,7 @@
 
 ;;; Code:
 
+(require 'install-packages-pack)
 (install-packs '(twittering-mode))
 
 (require 'twittering-mode)
@@ -20,4 +21,5 @@
 ;; inherit hashtag in a RT
 (setq twittering-edit-skeleton 'inherit-any)
 
+(provide 'twitter-pack)
 ;;; twitter-pack ends here
