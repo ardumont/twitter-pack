@@ -21,5 +21,7 @@
 ;; inherit hashtag in a RT
 (setq twittering-edit-skeleton 'inherit-any)
 
+(global-set-key (kbd "C-c t t") 'twittering-mode)
+
 (provide 'twitter-pack)
 ;;; twitter-pack ends here
