@@ -5,7 +5,7 @@
 ;;; Code:
 
 (require 'install-packages-pack)
-(install-packs '(twittering-mode))
+(install-packages-pack/install-packs '(twittering-mode))
 
 (require 'twittering-mode)
 
