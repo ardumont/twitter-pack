@@ -25,7 +25,7 @@
   "Minor mode to consolidate twitter-pack extensions.
 
 \\{twitter-pack-mode-map}"
-  :lighter " TP"
+  :lighter " τ"
   :keymap twitter-pack-mode-map)
 
 (define-globalized-minor-mode global-twitter-pack-mode twitter-pack-mode twitter-pack-on)
