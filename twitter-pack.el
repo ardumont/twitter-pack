@@ -4,16 +4,15 @@
 
 ;;; Code:
 
-(use-package twittering-mode
-  :config
-  ;; enabling unread tweets inside the emacs mod
-  (twittering-enable-unread-status-notifier)
-  ;; setting master password to store the password
-  (custom-set-variables '(twittering-use-master-password t)
-                        ;; display remaining api calls
-                        '(twittering-display-remaining t)
-                        ;; inherit hashtag in a RT
-                        '(twittering-edit-skeleton 'inherit-any)))
+(require 'twittering-mode)
+;; enabling unread tweets inside the emacs mod
+(twittering-enable-unread-status-notifier)
+;; setting master password to store the password
+(custom-set-variables '(twittering-use-master-password t)
+		      ;; display remaining api calls
+		      '(twittering-display-remaining t)
+		      ;; inherit hashtag in a RT
+		      '(twittering-edit-skeleton 'inherit-any))
 
 (defvar twitter-pack-mode-map
   (let ((map (make-sparse-keymap)))
